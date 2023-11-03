@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Pixelify+Sans&display=swap');
+
+.texto_sobre{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    margin-inline: 30%;
+
+}

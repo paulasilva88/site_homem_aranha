@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Pixelify+Sans&display=swap');
+
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family: 'Pixelify Sans', sans-serif;
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Pixelify+Sans&display=swap');
+
+.topo{
+    width: 100%;
+    height: 70px;
+    background-color: #8477f8;
+    position: sticky;
+    top:20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.topoLista{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topoListaItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    width: auto;
+}
+
+.topoCentro{
+    flex: 0;
+}
+
+.topoEsquerda, .topoDireita{
+    flex: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
